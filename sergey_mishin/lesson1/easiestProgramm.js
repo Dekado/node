@@ -8,4 +8,5 @@ buffer.writeUInt32BE(0x12345678, 0x40);
 buffer.writeUInt32BE(0xffffbbbb, 0x50);
 buffer.write('The quick brown fox jumps over the lazy dog!', 0x10);
 
+console.log('Я не знаю что тут происходит, но программа работает))))');
 console.log(hexdump(buffer));
